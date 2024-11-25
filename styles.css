@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#greeting {
+  margin: 20px;
+  font-size: 3.5rem;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+#clock {
+  font-size: 4rem;
+}
+
+#date {
+  font-size: 1.3rem;
+  margin: 10px;
+}
+
+#events {
+  margin-top: 60px;
+}
+
+#event-list {
+  border-radius: 5px;
+}
+
+li {
+  font-size: 1.3rem;
+  padding: 10px;
+}
+
+#event-input, button {
+  height: 30px;
+  width: auto;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+
